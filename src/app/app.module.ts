@@ -7,6 +7,9 @@ import { AppComponent }  from './app.component';
 import {AlbumService} from "./album.service";
 import {AlbumComponent} from "./album.component";
 import {RouterModule} from "@angular/router";
+import {ArtistComponent} from "./artist.component";
+import {SongComponent} from "./song.component";
+import {ArtistService} from "./artist.service";
 
 @NgModule({
   imports: [BrowserModule, FormsModule,

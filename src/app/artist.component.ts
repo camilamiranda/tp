@@ -3,7 +3,7 @@ import { Artist,ARTISTS } from "./model/artist";
 import {ArtistService} from "./artist.service";
 
 @Component({
-    selector: 'artist',
+    selector: 'artist-selected',
     templateUrl: './artist.component.html'
 })
 

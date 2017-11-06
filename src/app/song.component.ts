@@ -5,7 +5,7 @@ import {ActivatedRoute, ParamMap} from "@angular/router";
 import {AlbumService} from "./album.service";
 
 @Component({
-    selector: 'song',
+    selector: 'song-fromalbum',
     templateUrl: './song.component.html'
 })
 export class SongComponent implements OnInit {
